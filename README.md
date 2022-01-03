@@ -6,7 +6,7 @@ Image view with DRM protection for SwiftUI and UIKit.
 
 This view can't be captured via iOS screenshot feature or screen recording.
 
-<img src="https://raw.githubusercontent.com/shvul/PrivateImage/main/Example/PrivateImageExample.png" width="460" height="435">
+<img src="https://raw.githubusercontent.com/shvul/PrivateImage/main/Example/PrivateImageExample.png">
 
 ## Usage
 
