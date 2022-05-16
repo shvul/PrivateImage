@@ -5,7 +5,7 @@ final class UIKitExampleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let imageView = UIPrivateImageView()
+        let imageView = UIPrivateImageView(image: UIImage(named: "test-image"))
         imageView.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(imageView)
         
@@ -16,7 +16,6 @@ final class UIKitExampleViewController: UIViewController {
             imageView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor)
         ])
         
-        imageView.updateImage(to: UIImage(named: "test-image"))
         imageView.imageContentMode = .resizeAspect
     }
 }

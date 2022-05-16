@@ -5,6 +5,7 @@ public class UIPrivateImageView: UIView {
     public init(image: UIImage? = nil) {
         super.init(frame: .zero)
         self.layer.preventsCapture = true
+        image.flatMap(self.updateImage(to:))
     }
     
     required init?(coder: NSCoder) {

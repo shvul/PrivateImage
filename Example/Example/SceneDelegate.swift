@@ -9,8 +9,8 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = scene as? UIWindowScene else { return }
         let window = UIWindow(windowScene: windowScene)
         
-//        window.rootViewController = UIKitExampleViewController()
-        window.rootViewController = UIHostingController(rootView: SwiftUIExampleView())
+        window.rootViewController = UIKitExampleViewController()
+//        window.rootViewController = UIHostingController(rootView: SwiftUIExampleView())
         window.makeKeyAndVisible()
         self.window = window
     }
